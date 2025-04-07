@@ -10,3 +10,5 @@ yapılacaklar:
 bunları yaptıktan sonra bot sorunsuz bir şekilde çalışıcaktır çalışmazsa benim sorunum değil bro ben bıraktığımda çalışıyordu ;)
 
 # Extra olarak
+
+bot daha yapım aşamasındaydı o yüzden saçma şeyler görürseniz pek umursamayın çünkü ben botu bitirdikten sonra saçma şeyleri silen biriyim.
