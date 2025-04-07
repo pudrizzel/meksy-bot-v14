@@ -1,0 +1,25 @@
+const Discord = require('discord.js')
+const { t } = require('../../../client/languages/i18n');
+
+const commandName = t("", { lng: 'tr' ? 'tr' : 'en' });
+const commandDescription = t("", { lng: 'tr' ? 'tr' : 'en' });
+
+module.exports.execute = async(client, interaction) => {
+
+const userLang = interaction.locale === 'tr' ? 'tr' : 'en';
+
+try {
+    //kodlar buraya
+} catch (err) {
+    console.error(err);
+}
+
+},
+
+module.exports.config = {
+    name: commandName,
+    description: commandDescription,
+    cooldown: 20,
+    required_bot_permissions: ["ManageMessages"],
+    options: []
+}

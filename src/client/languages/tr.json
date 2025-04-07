@@ -1,0 +1,112 @@
+{
+  "translation": {
+    "mute": {
+      "name": "sustur",
+      "description": "Bir kullanıcıyı sunucuda sustur",
+      "user_option": "Susturulacak kullanıcı",
+      "duration_option": "Susturma süresi (örn. 1s, 30d, 1g)",
+      "reason_option": "Susturma nedeni",
+      "success": "Kullanıcı başarıyla susturuldu",
+      "already_muted": "Bu kullanıcı zaten susturulmuş",
+      "error": "Kullanıcı susturulurken bir hata oluştu",
+      "no_permission": "Bu komutu kullanma izniniz yok",
+      "cannot_mute_self": "Kendinizi susturamazsınız",
+      "cannot_mute_bot": "Bir botu susturamazsınız",
+      "cannot_mute_admin": "Bir yöneticiyi susturamazsınız",
+      "duration_invalid": "Geçersiz süre formatı. 1s, 5d, 2sa, 3g, 1h, 1y gibi formatlar kullanın",
+      "mute_notification_title": "Kullanıcı Susturuldu",
+      "muted_by": "Susturan:",
+      "muted_user": "Susturulan Kullanıcı:",
+      "reason": "Sebep:",
+      "duration": "Süre:",
+      "expires": "Bitiş:",
+      "permanent": "Kalıcı",
+      "footer": "Kullanıcı ID: {userId}"
+    },
+    "unmute": {
+      "name": "susturaç",
+      "description": "Bir kullanıcının susturmasını kaldır",
+      "user_option": "Susturması kaldırılacak kullanıcı",
+      "reason_option": "Susturma kaldırma nedeni",
+      "success": "Kullanıcının susturması başarıyla kaldırıldı",
+      "not_muted": "Bu kullanıcı susturulmamış",
+      "error": "Kullanıcının susturması kaldırılırken bir hata oluştu",
+      "no_permission": "Bu komutu kullanma izniniz yok",
+      "unmute_notification_title": "Kullanıcının Susturması Kaldırıldı",
+      "unmuted_by": "Susturmayı Kaldıran:",
+      "unmuted_user": "Susturması Kaldırılan Kullanıcı:",
+      "reason": "Sebep:",
+      "footer": "Kullanıcı ID: {userId}"
+    },
+    "userinfo": {
+      "name": "kullanicibilgi",
+      "description": "Bir kullanıcı hakkında detaylı bilgi gösterir",
+      "error": "Kullanıcı bilgileri alınırken bir hata oluştu.",
+      "user_not_found": "Kullanıcı bu sunucuda bulunamadı.",
+      "general_info": "Genel Bilgiler",
+      "username": "Kullanıcı Adı:",
+      "user_id": "Kullanıcı ID:",
+      "account_created": "Oluşturulma Tarihi:",
+      "joined_server": "Sunucuya Katılma:",
+      "nickname": "Takma Adı:",
+      "status_info": "Durum Bilgileri",
+      "status": "Durum:",
+      "activity": "Aktivite:",
+      "server_info": "Sunucu Bilgileri",
+      "highest_role": "En Yüksek Rol:",
+      "role_count": "Rol Sayısı:",
+      "key_permissions": "Anahtar İzinler:",
+      "badges": "Rozetler",
+      "none": "Yok",
+      "requested_by": "Sorgulayan:"
+    },
+    "info": {
+      "name": "bilgi",
+      "description": "🐧",
+      "title": "İstatistikleri",
+      "ping": "### • Bot Gecikmesi:",
+      "ping2": "1. WebSocket Gecikmesi:",
+      "ping3": "2. API Yanıt Süresi:",
+      "ping4": "3. Mesaj Gecikmesi:",
+      "ping5": "4. Veritabanı Bağlantısı:",
+      "ping6": "5. Bot Çalışma Süresi:",
+      "server": "### • Sunucu İstatistikleri:",
+      "server1": "1. Toplam Sunucu:",
+      "server2": "2. Toplam Kullanıcı:",
+      "server3": "3. Toplam Kanal:",
+      "server4": "4. Toplam Emoji:",
+      "server5": "5. Toplam Komut:",
+      "memory": "### • Bellek Kullanımı:",
+      "memory1": "1. RSS Bellek:",
+      "memory2": "2. Toplam Yığın:",
+      "memory3": "3. Kullanılan Yığın:",
+      "memory4": "4. Harici Bellek:",
+      "user": "### • Kullanıcı İstatistikleri:",
+      "user1": "1. Çevrimiçi Kullanıcılar:",
+      "user2": "2. Boşta Kullanıcılar:",
+      "user3": "3. Rahatsız Etmeyin:",
+      "user4": "4. Çevrimdışı Kullanıcılar:",
+      "user5": "5. Bot Kullanıcıları:",
+      "bars": "### • Performans Çubukları:",
+      "wsping": "WebSocket Gecikmesi:",
+      "apiping": "API Yanıtı:",
+      "msgping": "Mesaj Gecikmesi:",
+      "ram": "RAM Kullanımı:"
+    },
+    "system": {
+      "maintenance": {
+        "title": "🛠️ Bot Bakımda!",
+        "description": "Şu anda bot bakım modundadır. Lütfen daha sonra tekrar deneyin.",
+        "footer": "Anlayışınız için teşekkürler!"
+      },
+      "soon": {
+        "title": "Çok Yakında"
+      },
+      "cooldown": {
+        "title": "Bekleme Süresi Aktif!",
+        "description": "Bu komutu tekrar kullanmadan önce lütfen {seconds} saniye bekleyin.",
+        "footer": "Bu, spam'i önlemeye ve sorunsuz çalışmayı sağlamaya yardımcı olur."
+      }
+    }
+  }
+}

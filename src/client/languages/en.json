@@ -1,0 +1,112 @@
+{
+  "translation": {
+    "mute": {
+      "name": "mute",
+      "description": "Mute a user in the server",
+      "user_option": "The user to mute",
+      "duration_option": "Duration of the mute (e.g. 1h, 30m, 1d)",
+      "reason_option": "Reason for the mute",
+      "success": "User has been muted successfully",
+      "already_muted": "This user is already muted",
+      "error": "An error occurred while trying to mute the user",
+      "no_permission": "You don't have permission to use this command",
+      "cannot_mute_self": "You cannot mute yourself",
+      "cannot_mute_bot": "You cannot mute a bot",
+      "cannot_mute_admin": "You cannot mute an administrator",
+      "duration_invalid": "Invalid duration format. Use formats like 1s, 5m, 2h, 3d, 1w, 1y",
+      "mute_notification_title": "User Muted",
+      "muted_by": "Muted by:",
+      "muted_user": "Muted User:",
+      "reason": "Reason:",
+      "duration": "Duration:",
+      "expires": "Expires:",
+      "permanent": "Permanent",
+      "footer": "User ID: {userId}"
+    },
+    "unmute": {
+      "name": "unmute",
+      "description": "Unmute a user in the server",
+      "user_option": "The user to unmute",
+      "reason_option": "Reason for the unmute",
+      "success": "User has been unmuted successfully",
+      "not_muted": "This user is not muted",
+      "error": "An error occurred while trying to unmute the user",
+      "no_permission": "You don't have permission to use this command",
+      "unmute_notification_title": "User Unmuted",
+      "unmuted_by": "Unmuted by:",
+      "unmuted_user": "Unmuted User:",
+      "reason": "Reason:",
+      "footer": "User ID: {userId}"
+    },
+    "userinfo": {
+      "name": "userinfo",
+      "description": "Shows detailed information about a user",
+      "error": "An error occurred while fetching user information.",
+      "user_not_found": "User not found in this server.",
+      "general_info": "General Information",
+      "username": "Username:",
+      "user_id": "User ID:",
+      "account_created": "Account Created:",
+      "joined_server": "Joined Server:",
+      "nickname": "Nickname:",
+      "status_info": "Status Information",
+      "status": "Status:",
+      "activity": "Activity:",
+      "server_info": "Server Information",
+      "highest_role": "Highest Role:",
+      "role_count": "Role Count:",
+      "key_permissions": "Key Permissions:",
+      "badges": "Badges",
+      "none": "None",
+      "requested_by": "Requested by:"
+    },
+    "info": {
+      "name": "info",
+      "description": "🐧",
+      "title": "Statistic",
+      "ping": "### • Bot Ping:",
+      "ping2": "1. WebSocket Ping:",
+      "ping3": "2. API Response Time:",
+      "ping4": "3. Message Latency:",
+      "ping5": "4. Database Connection:",
+      "ping6": "5. Bot Uptime:",
+      "server": "### • Server Stats:",
+      "server1": "1. Total Servers:",
+      "server2": "2. Total Users:",
+      "server3": "3. Total Channels:",
+      "server4": "4. Total Emojis:",
+      "server5": "5. Total Commands:",
+      "memory": "### • Memory Usage:",
+      "memory1": "1. RSS Memory:",
+      "memory2": "2. Heap Total:",
+      "memory3": "3. Heap Used:",
+      "memory4": "4. External Memory:",
+      "user": "### • User Statistics:",
+      "user1": "1. Online Users:",
+      "user2": "2. Idle Users:",
+      "user3": "3. Do Not Disturb:",
+      "user4": "4. Offline Users:",
+      "user5": "5. Bot Users:",
+      "bars": "### • Performance Bars:",
+      "wsping": "WebSocket Ping:",
+      "apiping": "API Response:",
+      "msgping": "Message Latency:",
+      "ram": "RAM Usage:"
+    },
+    "system": {
+      "maintenance": {
+        "title": "🛠️ Bot Under Maintenance!",
+        "description": "The bot is currently in maintenance mode. Please try again later.",
+        "footer": "Thank you for your understanding!"
+      },
+      "soon": {
+        "title": "Coming Soon"
+      },
+      "cooldown": {
+        "title": "Cooldown Active!",
+        "description": "Please wait {seconds} seconds before using this command again.",
+        "footer": "This helps prevent spam and ensures smooth operation."
+      }
+    }
+  }
+}

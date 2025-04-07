@@ -1,0 +1,18 @@
+{
+  "name": "meksy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "src/index.js"
+  },
+  "keywords": [],
+  "author": "Pudrizzel",
+  "license": "ISC",
+  "description": "Pudrizzelin discord botudur Meksy",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.18.0",
+    "i18next": "^24.2.3",
+    "mongoose": "^8.13.1"
+  }
+}
