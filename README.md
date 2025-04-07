@@ -1,4 +1,4 @@
-# meksy-bot-v14
+# Meksy Bot V14 for Pudrizzel
 
 ```
 yapılacaklar:
