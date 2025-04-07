@@ -14,7 +14,7 @@ console.log(`
 const Discord = require('discord.js');
 const client = new Discord.Client({ intents: [Discord.GatewayIntentBits.Guilds, Discord.GatewayIntentBits.GuildMembers, Discord.GatewayIntentBits.MessageContent, Discord.GatewayIntentBits.GuildMessages, Discord.GatewayIntentBits.GuildEmojisAndStickers, Discord.GatewayIntentBits.GuildMessageReactions, Discord.GatewayIntentBits.GuildVoiceStates, Discord.GatewayIntentBits.GuildPresences], messages: { interval: 3600, lifetime: 1800, }, users: { interval: 3600, filter: () => user => user.bot && user.id !== client.user.id, } })
 
-// LANGUAGES - Initialize first to make translations available for handlers
+// LANGUAGES
 const { setupI18n, t } = require('./client/languages/i18n');
 setupI18n();
 
