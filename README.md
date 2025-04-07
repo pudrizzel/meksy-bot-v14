@@ -8,3 +8,5 @@ yapılacaklar:
 ```
 
 bunları yaptıktan sonra bot sorunsuz bir şekilde çalışıcaktır çalışmazsa benim sorunum değil bro ben bıraktığımda çalışıyordu ;)
+
+# Extra olarak
