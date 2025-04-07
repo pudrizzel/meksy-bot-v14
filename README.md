@@ -2,5 +2,4 @@
 
 yapılacaklar:
 ```
-
 1. 
